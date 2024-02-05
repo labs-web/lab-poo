@@ -1,7 +1,7 @@
 ---
 layout: default
 slug: /introduction
-order: 1
+order: 2
 ---
 
-# Introduction
+## Introduction

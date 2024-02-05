@@ -1,4 +1,10 @@
-# Structure Des Dossier
+---
+layout: default
+slug: /rapport
+order: 1
+---
+
+## Structure Des Dossier
 
 - Docs
   - Introduction
