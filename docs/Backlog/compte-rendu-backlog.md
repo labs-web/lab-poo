@@ -1,6 +1,6 @@
 ---
 layout: default
-slug: /rapport
+slug: /backlog
 order: 1
 ---
 
@@ -10,10 +10,12 @@ order: 1
   - Introduction
     - introduction.md
     - Images
+  - mécanisme-de-oop
+    - mécanisme-de-oop.md
+    - compte-rendu-mécanisme-de-oop.md
   - Conclusion
     - conclusion.md
     - Images
   - Backlog
-    - backlog.md
     - compte-rendu-backlog.md
   - Rapport
