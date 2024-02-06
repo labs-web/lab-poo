@@ -1,21 +1,21 @@
 ---
 layout: default
 slug: /backlog
-order: 1
+order: 2
 ---
 
-## Structure Des Dossier
+## Backlog
 
-- Docs
+### structure des dossier
+
+- docs
   - Introduction
     - introduction.md
     - Images
   - mécanisme-de-oop
     - mécanisme-de-oop.md
-    - compte-rendu-mécanisme-de-oop.md
   - Conclusion
     - conclusion.md
-    - Images
   - Backlog
-    - backlog.md
+    - structure-des-dossier.md
   - Rapport
