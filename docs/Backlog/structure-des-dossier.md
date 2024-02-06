@@ -15,7 +15,6 @@ order: 2
     - compte-rendu-mécanisme-de-oop.md
   - Conclusion
     - conclusion.md
-    - Images
   - Backlog
     - structure-des-dossier.md
   - Rapport
