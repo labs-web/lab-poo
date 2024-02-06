@@ -1,5 +1,9 @@
-# compte-rendu-mécanisme-de-oop
+---
+layout: default
+slug: /compte-rendu
+order: 3
+---
+## Compte rendu mécanisme de oop
 
-## Reference
-
-- [Programmation Orientée Objet (POO) : qu'est-ce que c'est ?](https://blog.hubspot.fr/website/programmation-orientee-objet)
+### Reference
+ - [https://blog.hubspot.fr/website/programmation-orientee-objet](https://blog.hubspot.fr/website/programmation-orientee-objet)

@@ -6,7 +6,9 @@ order: 2
 
 ## Backlog
 
-- Docs
+### structure des dossier
+
+- docs
   - Introduction
     - introduction.md
     - Images
