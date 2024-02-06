@@ -1,10 +1,10 @@
 ---
 layout: default
 slug: /backlog
-order: 1
+order: 2
 ---
 
-## Structure Des Dossier
+## Backlog
 
 - Docs
   - Introduction
@@ -17,5 +17,5 @@ order: 1
     - conclusion.md
     - Images
   - Backlog
-    - backlog.md
+    - structure-des-dossier.md
   - Rapport
