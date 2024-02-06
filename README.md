@@ -10,5 +10,6 @@ Le backlog est une liste ordonées des tâches
   - [mécanisme-de-oop](./backlog/feature/3.mécanisme-de-oop.md)
   - [Conclusion](./backlog/feature/4.conclusion.md)
   - [Rapport](./docs/rapport.md)
+  - [Presentation](./docs/presentation.md)
 
 ## Reference 
