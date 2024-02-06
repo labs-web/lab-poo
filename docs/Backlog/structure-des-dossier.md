@@ -14,7 +14,6 @@ order: 2
     - Images
   - mécanisme-de-oop
     - mécanisme-de-oop.md
-    - compte-rendu-mécanisme-de-oop.md
   - Conclusion
     - conclusion.md
   - Backlog
