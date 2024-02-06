@@ -17,5 +17,5 @@ order: 1
     - conclusion.md
     - Images
   - Backlog
-    - compte-rendu-backlog.md
+    - backlog.md
   - Rapport
