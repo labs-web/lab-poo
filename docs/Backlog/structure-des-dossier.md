@@ -1,6 +1,6 @@
 ---
 layout: default
-slug: title
+title: backlog
 slug: /backlog
 order: 2
 ---
@@ -8,7 +8,7 @@ order: 2
 ## Backlog
 
 ### structure des dossier
-
+<-- note -->
 - docs
   - Introduction
     - introduction.md
