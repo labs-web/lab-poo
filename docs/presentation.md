@@ -4,10 +4,11 @@ order: 1
 ---
 
 
-{% assign chapitres = site.pages | sort: "order" %}
+{% assign pages = site.pages | sort: "order" %}
 
-{% for chapitre in chapitres %}
-  {% if chapitre.title  %}
-    {{- chapitre.content -}}
+{% for page in pages %}
+  {% if page.title  %}
+    {{ page.content | markdownify }}
   {% endif %}
 {% endfor %}
+
