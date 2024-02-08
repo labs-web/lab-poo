@@ -1,7 +1,5 @@
-#  
-  
+#  Lab POO
 
- 
 ## Backlog 
 
 Le backlog est une liste ordonées des tâches 
@@ -14,6 +12,9 @@ Le backlog est une liste ordonées des tâches
   - [3.mécanisme-de-oop.md](./Backlog/feature/3.mécanisme-de-oop.md) 
   - [4.conclusion.md](./Backlog/feature/4.conclusion.md) 
 - **sous-tâche** 
+  - [1.backlog.md](./Backlog/sous-tâche/1.init-rapport) 
+  - [2.introduction.md](./Backlog/sous-tâche/2.init-presentation.md) 
+
 ## Livrables 
 
  
