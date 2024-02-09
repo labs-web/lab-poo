@@ -8,7 +8,7 @@ order: 2
 ## Backlog
 
 ### structure des dossier
-<-- note -->
+
 - docs
   - Introduction
     - introduction.md
