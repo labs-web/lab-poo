@@ -15,13 +15,16 @@ order: 2
   - Introduction
     - introduction.md
     - Images
-  - mécanisme-de-oop
-    - mécanisme-de-oop.md
+  - back-end
+    - images
+    - back-end.md
+  - Test
+    - test.md
+    - images
   - Conclusion
     - conclusion.md
   - Backlog
     - structure-des-dossier.md
-    - images.md
   - Rapport
 
 <!-- new slide -->
