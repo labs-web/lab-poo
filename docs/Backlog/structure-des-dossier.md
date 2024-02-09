@@ -17,6 +17,9 @@ order: 2
     - Images
   - mécanisme-de-oop
     - mécanisme-de-oop.md
+  - Back-end
+    - images
+      - back-end.md
   - Conclusion
     - conclusion.md
   - Backlog
