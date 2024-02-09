@@ -8,7 +8,7 @@ order: 1
 
 {% for page in pages %}
   {% if page.title  %}
-    {{ page.content | markdownify }}
+    {{- page.content | markdownify -}}
   {% endif %}
 {% endfor %}
 

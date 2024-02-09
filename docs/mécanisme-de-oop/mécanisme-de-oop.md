@@ -7,7 +7,7 @@ order: 3
 
 ## Mécanisme de OOP
 
-!['introduction']({{site.baseurl}}/Introduction/images/oop.PNG)
+!['introduction']({{site.baseurl}}/mécanisme-de-oop/images/oop.PNG)
 
 <!-- note -->
 ### Comment fonctionne la POO ?
