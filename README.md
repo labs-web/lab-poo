@@ -1,9 +1,12 @@
 # Lab POO
 
-## Travail à faire
+## Backlog
 
-- Élaboration d'un presentation sans contenu avec les pages et leurs titres
-- Ajouter le lien de presentation dans readme.md
+- [Backend](./docs/backend/backend.md)
+- [Unit-test](./docs/unit-test/unite-test.md)
+- [Frontend](./docs/Front-end/front-end.md)
+- [Rapport](./docs/rapport.md)
+- [Presentation](./docs/presentation.md)
 
 ## Livrable
 
