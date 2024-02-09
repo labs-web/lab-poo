@@ -1,33 +1,14 @@
-#  
+# Lab POO
 
-- Référence :   
+## Backlog
 
- 
+- [Backend](./docs/backend/backend.md)
+- [Unit-test](./docs/unit-test/unite-test.md)
+- [Frontend](./docs/Front-end/front-end.md)
+- [Rapport](./docs/rapport.md)
+- [Presentation](./docs/presentation.md)
 
-## Backlog 
+## Livrable
 
-Le backlog est une liste ordonées des tâches 
-
-- **chapitre** 
-- **exposé** 
-- **feature** 
-  - [1.backlog.md](./Backlog/feature/1.backlog.md) 
-  - [2.introduction.md](./Backlog/feature/2.introduction.md) 
-  - [3.mécanisme-de-oop.md](./Backlog/feature/3.mécanisme-de-oop.md) 
-  - [4.conclusion.md](./Backlog/feature/4.conclusion.md) 
-- **sous-tâche** 
-## Livrables 
-
- 
-
-- /Backlog 
-  - Backlog 
-- /docs 
-  - Documentation 
-## Références 
-
- 
-
-- [Autoformation](#) 
-- [Rapport](https://labs-web.github.io/lab-poo/rapport.html) 
-
+- [Rapport](https://labs-web.github.io/lab-poo/rapport.html)
+- [Presentation](https://labs-web.github.io/lab-poo/presentation.html)

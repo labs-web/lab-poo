@@ -3,4 +3,5 @@ layout: default
 slug: /index
 ---
 
-- [rapport](./rapport.html)
+- Rapport
+  - [rapport](./rapport.html)

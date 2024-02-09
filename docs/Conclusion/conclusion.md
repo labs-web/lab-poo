@@ -1,5 +1,6 @@
 ---
 layout: default
+title: conclusion
 slug: /conclusion
 order: 4
 ---

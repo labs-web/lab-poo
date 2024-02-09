@@ -1,5 +1,6 @@
 ---
 layout: default
+title: backlog
 slug: /backlog
 order: 2
 ---
