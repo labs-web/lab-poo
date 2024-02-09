@@ -5,10 +5,12 @@ slug: /backlog
 order: 2
 ---
 
+
 ## Backlog
+<!-- note -->
 
 ### structure des dossier
-<-- note -->
+
 - docs
   - Introduction
     - introduction.md
@@ -19,4 +21,7 @@ order: 2
     - conclusion.md
   - Backlog
     - structure-des-dossier.md
+    - images.md
   - Rapport
+
+<!-- new slide -->
