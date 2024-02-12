@@ -2,11 +2,10 @@
 
 ## Backlog
 
-- [Backend](./docs/backend/backend.md)
-- [Unit-test](./docs/unit-test/unite-test.md)
-- [Frontend](./docs/Front-end/front-end.md)
-- [Rapport](./docs/rapport.md)
-- [Presentation](./docs/presentation.md)
+**feature**
+**sous-tâche**
+
+- [2.init-presentation](./backlog/sous-tâche/2.init-presentation.md)
 
 ## Livrable
 

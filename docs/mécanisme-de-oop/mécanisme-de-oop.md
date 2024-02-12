@@ -4,7 +4,7 @@ title: mécanisme-de-oop
 slug: /mécanisme-de-oop
 order: 3
 ---
-
+<!-- new slide  -->
 ## Mécanisme de OOP
 
 !['introduction']({{site.baseurl}}/mécanisme-de-oop/images/oop.PNG)
