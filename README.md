@@ -2,10 +2,15 @@
 
 ## Backlog
 
-**feature**
-**sous-tâche**
-
-- [2.init-presentation](./backlog/sous-tâche/2.init-presentation.md)
+- **feature**
+  - [Backend](./docs/backend/backend.md)
+  - [test](./docs/test/test.md)
+  - [Frontend](./docs/Front-end/front-end.md)
+  - [Rapport](./docs/rapport.md)
+  - [Presentation](./docs/presentation.md)
+- **sous-tâche**
+  - [1.init-rapport](./backlog/sous-tâche/1.init-rapport.md)
+  - [2.init-presentation](./backlog/sous-tâche/2.init-presentation.md)
 
 ## Livrable
 
