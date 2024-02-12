@@ -1,0 +1,19 @@
+---
+layout: default
+title: mécanisme-de-oop
+slug: /mécanisme-de-oop
+order: 3
+---
+<!-- new slide  -->
+## Mécanisme de OOP
+
+!['introduction']({{site.baseurl}}/mécanisme-de-oop/images/oop.PNG)
+
+### Comment fonctionne la POO ?
+La POO repose sur 4 principes :
+
+- L'encapsulation
+- L'abstraction
+- L'héritage
+- Le polymorphisme
+
