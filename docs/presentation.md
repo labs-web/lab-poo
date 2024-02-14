@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: presentation
 order: 1
 ---
 
@@ -9,3 +9,4 @@ order: 1
     {{- page.content | markdownify -}}
   {% endif %}
 {% endfor %}
+ 
