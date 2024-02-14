@@ -4,7 +4,9 @@ chapitre: Introduction
 order: 1
 ---
 
-# Introduction
+# Lab POO
 <!-- new slide -->
+
+# Introduction
 !['introduction'](/gestion-projet/1.Introduction/images/introduction.PNG)
 <!-- new slide -->
