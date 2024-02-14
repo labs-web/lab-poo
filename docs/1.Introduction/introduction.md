@@ -8,5 +8,5 @@ order: 1
 <!-- new slide -->
 
 # Introduction
-!['introduction'](/gestion-projet/1.Introduction/images/introduction.PNG)
+!['introduction'](/lab-poo/1.Introduction/images/introduction.PNG)
 <!-- new slide -->
