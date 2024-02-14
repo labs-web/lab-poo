@@ -14,6 +14,8 @@ order: 2
   - introduction
     - images
     - introduction.md
+  - mécanisme-de-oop
+    - mécanisme-de-oop.md  
   - backlog
     - images
     - Backlog.md
