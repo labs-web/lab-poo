@@ -7,6 +7,7 @@
 
 
 body {
+
 	margin: 0;
 	padding: 0;
 	background-color: #FAFAFA;
@@ -14,11 +15,13 @@ body {
 }
 
 
+
 /* 
  * Séparateur des pages
  * Cette élément est ajouter automatiquement avant l'élément h1, 
  * en utilisant javascript
  */
+
 hr:first-of-type {
 	display: none;
 }
@@ -32,6 +35,7 @@ hr {
 	background-color: #FAFAFA;
 	position: relative;
 	left: -1.03cm;
+
 	width: 21.03cm;
 	height: 2cm;
 	padding: 0px;
@@ -55,6 +59,7 @@ hr {
 	margin: 1cm auto;
 	margin-top: 0px;
 
+
 	border: 1px #D3D3D3 solid;
 	border-radius: 5px;
 	background: white;
@@ -66,6 +71,7 @@ hr {
 	size: A4;
 	margin-top: 2cm;
 }
+
 
 @media print {
 
@@ -87,6 +93,7 @@ hr {
 	}
 }
 
+
 code {
 	border: 1px solid #666;
 	border-radius: 2px;
@@ -98,6 +105,7 @@ code {
 */
 /* Centrer les images */
 img {
+
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -131,6 +139,7 @@ li {
 	font-size: 12.0pt;
 	text-align: justify;
 	line-height: 120%;
+
 }
 
 /* h1::before {
@@ -142,6 +151,7 @@ h1::after {
 	content: "";
 	color: red;
   } */
+
 
 
 h1 {
@@ -219,3 +229,4 @@ h6 {
 	color: #1F4D78;
 	font-weight: normal;
 }
+
