@@ -3,9 +3,15 @@ layout: default
 chapitre: Backlog
 order: 2
 ---
+<!-- new slide -->
+
 # Backlog
 
+<!-- new slide -->
+
 ## Structure des dossiers
+
+<!-- note -->
 
 - docs
   - table de matière
