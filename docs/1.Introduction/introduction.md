@@ -8,3 +8,4 @@ order: 1
 # Introduction
 
 !['introduction'](./1.Introduction/images/introduction.PNG)
+*Figure 1: Introduction*
