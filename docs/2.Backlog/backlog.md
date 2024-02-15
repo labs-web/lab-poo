@@ -3,25 +3,19 @@ layout: default
 chapitre: Backlog
 order: 2
 ---
-<!-- new slide -->
 # Backlog
-<!-- new slide -->
+
 ## Structure des dossiers
 
-<!-- note -->
 - docs
-  - index.md
+  - table de matière
+    - table-de-matière.md
   - introduction
     - images
-    - introduction.md
-  - mécanisme-de-oop
-    - mécanisme-de-oop.md  
+    - introduction.md  
   - backlog
-    - images
     - Backlog.md
   - conclusion
     - conclusion.md
-  - rapport.md
+  - index.md
   - présentation.html
-
-<!-- new slide -->
