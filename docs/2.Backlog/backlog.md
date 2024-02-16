@@ -10,15 +10,35 @@ order: 2
 <!-- note -->
 - docs
   - index.md
-  - rapport.md
-  - introduction
+  - presentation.md
+  - Table-de-matière
+    - table-de-matière.md
+  - Introductin
+    - introductin.md
     - images
-    - introduction.md
-  - backlog
-    - images
+  - Backlog
     - Backlog.md
-  - conclusion
+  - Expose-poo
+    - expose-poo.md
+    - presentation.md
+    - rapport.md
+    - images
+  - Mécanisme-de-oop
+    - Mécanisme-de-oop.md
+    - images
+  - Back-end
+    - back-end.md
+    - images
+    - ...
+  - Front-end
+    - front-end.md
+    - images
+    - ...
+  - Test
+    - test.md
+    - images
+    - ...
+  - Conclusion
     - conclusion.md
     - images
-
 <!-- new slide -->
