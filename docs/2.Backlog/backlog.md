@@ -10,6 +10,7 @@ order: 2
 <!-- note -->
 - docs
   - index.md
+  - rapport.md
   - introduction
     - images
     - introduction.md
@@ -18,7 +19,6 @@ order: 2
     - Backlog.md
   - conclusion
     - conclusion.md
-  - rapport.md
-  - présentation.html
+    - images
 
 <!-- new slide -->

@@ -8,8 +8,8 @@ order: 0
 
 - [Table de matière]()
 - [Introduction](#introduction)
-  - [Backlog](#backlog)
-- [Structure des dossiers](#structure-des-dossiers)
+- [Backlog](#backlog)
+  - [Structure des dossiers](#structure-des-dossiers)
 - [Expose poo](#expose-poo)
 - [Mécanisme de oop](#mécanisme-de-oop)
 - [Back end](#back-end)
