@@ -1,7 +1,8 @@
 ---
 layout: default
-chapitre: Expose poo
+chapitre: Mécanisme de oop
 order: 4
 ---
 
 # Mécanisme de oop
+<!-- new slide -->
