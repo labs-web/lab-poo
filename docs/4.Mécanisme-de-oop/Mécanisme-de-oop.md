@@ -123,8 +123,48 @@ class Étudiant extends Personne {
 
 ## Polymorphisme 
 
+### Example
+
 Le polymorphisme permet à un objet d'adopter différents comportements en fonction du contexte. Il peut se manifester de différentes manières, notamment par le biais du surcharge de méthodes (méthodes portant le même nom mais avec des paramètres différents) et du remplacement de méthodes (méthodes héritées pouvant être redéfinies dans la classe dérivée).
 
+```bash
+<?php
+# Classe parent
+class Animal {
+    public function faireDuBruit() {
+        return "L'animal fait un bruit";
+    }
+}
+
+# Classe enfant 1
+class Chien extends Animal {
+    public function faireDuBruit() {
+        return "Woof!";
+    }
+}
+
+# Classe enfant 2
+class Chat extends Animal {
+    public function faireDuBruit() {
+        return "Miaou!";
+    }
+}
+
+# Fonction qui accepte n'importe quel objet Animal et le fait produire un son
+function sonAnimal(Animal $animal) {
+    return $animal->faireDuBruit();
+}
+
+# Création d'objets
+$animal1 = new Chien();
+$animal2 = new Chat();
+
+# Appel de la fonction avec différents objets
+echo sonAnimal($animal1) . "\n"; # Résultat : Woof!
+echo sonAnimal($animal2) . "\n"; # Résultat : Miaou!
+?>
+
+```
 ## Référence
 
 [https://www.spiceworks.com/tech/devops/articles/object-oriented-programming/](https://www.spiceworks.com/tech/devops/articles/object-oriented-programming/)
