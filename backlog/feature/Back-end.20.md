@@ -9,5 +9,6 @@
 
 - app/*
 - docs/back-end/back-end.md
+- docs/back-end/images/
 
 
