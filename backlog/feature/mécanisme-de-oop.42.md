@@ -6,6 +6,6 @@
 
 ## Livrable
 
-- backlog/feature
-    - 3.mécanisme-de-oop.42.md
-- docs/mécanisme-de-oop/*
+
+- docs/mécanisme-de-oop/mécanisme-de-oop.md
+- docs/mécanisme-de-oop/images/*

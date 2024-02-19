@@ -6,8 +6,9 @@
 
 ## Livrable
 
-- backlog/feature
-  - 3.Back-end.20.md
+
 - app/*
-- docs/back-end/*
+- docs/back-end/back-end.md
+- docs/back-end/images/
+
 

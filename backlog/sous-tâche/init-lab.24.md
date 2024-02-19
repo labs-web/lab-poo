@@ -3,11 +3,11 @@
 ## Travail à faire
 
 - Élaboration d'un rapport sans contenu avec les pages et leurs titres
-- Ajouter le lien de rapport dans readme.md
+
 
 ## Livrable
 
-- backlog/sous-tâche/1.init-rapport.24.md
+
 - docs/*
 - README.md
 - README.json

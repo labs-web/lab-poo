@@ -1,0 +1,15 @@
+# exposé-poo
+
+## Travail à faire
+
+- Rédaction d'exposé sur poo
+
+## Livrable
+
+
+- docs/expose-poo/expose-poo.md
+  - Resume
+- docs/expose-poo/presentation.md
+- docs/expose-poo/rapport.md
+  - Resultat d'exposé 
+- docs/expose-poo/images/*
