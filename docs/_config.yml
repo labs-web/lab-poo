@@ -1,5 +1,6 @@
 # Build settings
-# baseurl: "/lab-poo"
+baseurl: "/lab-poo"
+
 
 # lsi: false
 # safe: true
