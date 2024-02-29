@@ -10,25 +10,25 @@ order: 5
 <!-- new slide -->
 
 ## Introduction
-![Exposé constructeur](/lab-poo/exposé-constructeur/images/introduction.jpg){:width="500px" }*Figure: Introduction*
+![Exposé constructeur](/lab-poo/exposé-abstract-class/images/introduction.jpg){:width="500px" }*Figure: Introduction*
 <!-- note -->
 Le constructeur est une méthode spéciale en PHP qui est appelée automatiquement lors de l'instanciation d'une classe. Il permet d'initialiser les attributs de l'objet et de configurer son état initial.
 
 
 <!-- new slide -->
 ## Définition
-![Exposé constructeur](/lab-poo/exposé-constructeur/images/definition.jpg){:width="500px" }*Figure: Définition*
+![Exposé constructeur](/lab-poo/exposé-abstract-class/images/definition.jpg){:width="500px" }*Figure: Définition*
 
 <!-- note -->
 Le constructeur est déclaré avec le mot-clé `__construct` suivi d'une liste de paramètres entre parenthèses. Les paramètres peuvent être utilisés pour passer des valeurs à l'objet lors de sa création.
 
 <!-- new slide -->
 ## Exemple
-![Exposé constructeur](/lab-poo/exposé-constructeur/images/Construct-code.png)*Figure: Exemple*
+![Exposé constructeur](/lab-poo/exposé-abstract-class/images/Construct-code.png)*Figure: Exemple*
 
 <!-- new slide -->
 ## Avantages du constructeur
-![Exposé constructeur](/lab-poo/exposé-constructeur/images/avantages.jpg){:width="500px" }*Figure: Avantages*
+![Exposé constructeur](/lab-poo/exposé-abstract-class/images/avantages.jpg){:width="500px" }*Figure: Avantages*
 
 <!-- note -->
 * Permet d'initialiser les attributs de l'objet de manière centralisée.
@@ -37,7 +37,7 @@ Le constructeur est déclaré avec le mot-clé `__construct` suivi d'une liste d
 
 <!-- new slide -->
 ## Utilisation du constructeur
-![Exposé constructeur](/lab-poo/exposé-constructeur/images/cas-utilisation.jpg){:width="500px" }*Figure: Cas d'utilisation*
+![Exposé constructeur](/lab-poo/exposé-abstract-class/images/cas-utilisation.jpg){:width="500px" }*Figure: Cas d'utilisation*
 
 <!-- note -->
 * Initialiser les attributs de l'objet avec des valeurs par défaut.
@@ -48,7 +48,7 @@ Le constructeur est déclaré avec le mot-clé `__construct` suivi d'une liste d
 <!-- new slide -->
 ## Conclusion
 
-![Exposé constructeur](/lab-poo/exposé-constructeur/images/conclusion.jpg){:width="500px" }*Figure: Conclusion*
+![Exposé constructeur](/lab-poo/exposé-abstract-class/images/conclusion.jpg){:width="500px" }*Figure: Conclusion*
 
 <!-- note -->
 Le constructeur est une méthode puissante et flexible qui permet de configurer et d'initialiser les objets en PHP. Il est un outil essentiel pour le développement orienté objet.

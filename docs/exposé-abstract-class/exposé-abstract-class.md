@@ -7,7 +7,7 @@ order: 4
 # Exposé classe abstraite
 <!-- new slide -->
 ## Introduction 
-![Exposé constructeur](/lab-poo/exposé-constructeur/images/introduction.jpg){:width="500px" }*Figure: Introduction*
+![Exposé constructeur](/lab-poo/exposé-abstract-class/images/introduction.jpg){:width="500px" }*Figure: Introduction*
 
 <!-- note -->
 
@@ -18,10 +18,10 @@ Le constructeur en PHP est une méthode spéciale qui est automatiquement appel�
 ## Livrable 
 
 ### Lien de Présentation
-- [Présentation exposé constructeur](/lab-poo/exposé-constructeur/presentation.html)
+- [Présentation exposé constructeur](/lab-poo/exposé-abstract-class/presentation.html)
 
 ### Lien de Rapport
-- [Rapport exposé constructeur](/lab-poo/exposé-constructeur/rapport.html)
+- [Rapport exposé constructeur](/lab-poo/exposé-abstract-class/rapport.html)
 
 
 <!-- new slide -->
