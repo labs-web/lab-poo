@@ -6,7 +6,7 @@ order: 5
 
 
 # Exposé sur le constructeur 
-
+{:class="sectionHeader"}
 <!-- new slide -->
 
 ## Introduction

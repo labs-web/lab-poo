@@ -51,7 +51,7 @@ $personne = new Personne("Martin", 30);
 echo $personne->getNom() . " a " . $personne->getAge() . " ans." . PHP_EOL;
 ```
 
-<!-- ![Exposé constructeur](/lab-poo/exposé-constructeur/images/exemple.jpg){:width="500px" }*Figure: Exemple* -->
+
 
 ## Avantages du constructeur
 ![Exposé constructeur](/lab-poo/exposé-constructeur/images/avantages.jpg){:width="500px" }*Figure: Avantages*
@@ -81,7 +81,7 @@ Le constructeur est une méthode puissante et flexible qui permet de configurer 
 * Le constructeur est une méthode spéciale appelée automatiquement lors de l'instanciation d'une classe.
 * Il permet d'initialiser les attributs de l'objet et de configurer son état initial.
 * Le constructeur peut avoir des paramètres pour passer des valeurs à l'objet lors de sa création.
-* L'utilisation du constructeur permet d'améliorer la lisbilité, la maintenabilité et la sécurité du code.
+* L'utilisation du constructeur permet d'améliorer la lisibilité, la maintenabilité et la sécurité du code.
 
 
 
