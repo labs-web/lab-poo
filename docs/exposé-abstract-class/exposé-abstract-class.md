@@ -11,7 +11,7 @@ order: 4
 
 <!-- note -->
 
-Le constructeur en PHP est une méthode spéciale qui est automatiquement appelée lors de l'instanciation d'une classe. Son rôle est d'initialiser les attributs de l'objet et de configurer son état initial.
+Le constructeur en PHP est une méthode Une classe abstraite en programmation orientée objet offre un cadre pour définir des méthodes sans les implémenter. Cela permet aux classes enfants de fournir leur propre implémentation.
 
 <!-- new slide -->
 
