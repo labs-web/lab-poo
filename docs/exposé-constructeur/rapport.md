@@ -1,17 +1,16 @@
 ---
 layout: default
-chapitre: rapport
 order: 4
 ---
 
-# Table des matières
-- [Table des matières](#table-des-matières)
+# Table de matière
+- [Table de matière](#table-de-matière)
 - [Exposé sur le constructeur](#exposé-sur-le-constructeur)
   - [Introduction](#introduction)
   - [Définition](#définition)
   - [Exemple](#exemple)
   - [Avantages du constructeur](#avantages-du-constructeur)
-  - [Cas d'utilisation](#cas-dutilisation)
+  - [Utilisation du constructeur](#utilisation-du-constructeur)
   - [Conclusion](#conclusion)
   - [Points à retenir](#points-à-retenir)
   - [Ressources supplémentaires](#ressources-supplémentaires)
@@ -61,7 +60,7 @@ echo $personne->getNom() . " a " . $personne->getAge() . " ans." . PHP_EOL;
 * Facilite la création d'objets avec des valeurs par défaut.
 * Améliore la lisbilité et la maintenabilité du code.
 
-## Cas d'utilisation
+## Utilisation du constructeur
 ![Exposé constructeur](/lab-poo/exposé-constructeur/images/cas-utilisation.jpg){:width="500px" }*Figure: Cas d'utilisation*
 
 * Initialiser les attributs de l'objet avec des valeurs par défaut.
@@ -89,6 +88,11 @@ Le constructeur est une méthode puissante et flexible qui permet de configurer 
 
 ## Ressources supplémentaires
 
-- Le constructeur en PHP: [https://www.php.net/manual/fr/language.oop5.decon.php](https://www.php.net/manual/fr/language.oop5.decon.php)
-- Tutoriel sur les constructeurs en PHP : [https://www.w3schools.com/php/php_oop_constructor.asp](https://www.w3schools.com/php/php_oop_constructor.asp)
+  
+- Le constructeur en PHP :
+    - https://www.w3schools.com/php/php_oop_constructor.asp
+
+  
+- Tutoriel sur les constructeurs en PHP:
+    - https://www.w3schools.com/php/php_oop_constructor.asp
 
