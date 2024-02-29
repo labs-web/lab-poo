@@ -6,6 +6,7 @@ order: 5
 
 
 # Exposé classe abstraite
+{:class="sectionHeader"}
 
 <!-- new slide -->
 
