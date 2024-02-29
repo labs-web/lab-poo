@@ -1,7 +1,7 @@
 ---
 layout: default
 chapitre: Resumer
-order: 4
+order: 3
 ---
 
 # Exposé constructeur
