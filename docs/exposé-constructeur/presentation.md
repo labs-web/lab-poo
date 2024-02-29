@@ -21,9 +21,10 @@ Le constructeur est une méthode spéciale en PHP qui est appelée automatiqueme
 
 <!-- note -->
 Le constructeur est déclaré avec le mot-clé `__construct` suivi d'une liste de paramètres entre parenthèses. Les paramètres peuvent être utilisés pour passer des valeurs à l'objet lors de sa création.
+
 <!-- new slide -->
 ## Exemple
-![Exposé constructeur](/lab-poo/exposé-constructeur/images/Construct-code.png){:width="500px" }*Figure: Exemple*
+![Exposé constructeur](/lab-poo/exposé-constructeur/images/Construct-code.png)*Figure: Exemple*
 
 <!-- new slide -->
 ## Avantages du constructeur
