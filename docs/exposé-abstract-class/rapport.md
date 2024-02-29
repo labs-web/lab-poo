@@ -9,90 +9,82 @@ order: 4
   - [Introduction](#introduction)
   - [Définition](#définition)
   - [Exemple](#exemple)
-  - [Avantages du constructeur](#avantages-du-constructeur)
-  - [Utilisation du constructeur](#utilisation-du-constructeur)
+  - [Avantages de la classe abstraite](#avantages-de-la-classe-abstraite)
+  - [Utilisation de la classe abstraite](#utilisation-de-la-classe-abstraite)
   - [Conclusion](#conclusion)
   - [Points à retenir](#points-à-retenir)
   - [Ressources supplémentaires](#ressources-supplémentaires)
 <!-- new slide -->
 
+
+
 # Exposé classe abstraite
 ## Introduction
-![Exposé constructeur](/lab-poo/exposé-abstract-class/images/introduction.jpg){:width="500px" }*Figure: Introduction*
-Le constructeur est une méthode spéciale en PHP qui est appelée automatiquement lors de l'instanciation d'une classe. Il permet d'initialiser les attributs de l'objet et de configurer son état initial.
+![Exposé classe abstraite](/lab-poo/exposé-abstract-class/images/introduction.jpg){:width="500px" }*Figure: Introduction*
+Une classe abstraite en programmation orientée objet offre un cadre pour définir des méthodes sans les implémenter. Cela permet aux classes enfants de fournir leur propre implémentation.
 
 ## Définition
-![Exposé constructeur](/lab-poo/exposé-abstract-class/images/definition.jpg){:width="500px" }*Figure: Définition*
+![Exposé classe abstraite](/lab-poo/exposé-abstract-class/images/definition.jpg){:width="500px" }*Figure: Définition*
 
-Le constructeur est déclaré avec le mot-clé `__construct` suivi d'une liste de paramètres entre parenthèses. Les paramètres peuvent être utilisés pour passer des valeurs à l'objet lors de sa création.
+Une classe abstraite est définie par le mot-clé `abstract`. Elle peut contenir des méthodes abstraites, qui sont des méthodes déclarées mais non implémentées.
+
 ## Exemple
 
 ```php
-class Personne {
-    private $nom;
-    private $age;
+abstract class Forme {
+    abstract public function calculerAire();
+}
 
-    public function __construct($nom, $age) {
-        $this->nom = $nom;
-        $this->age = $age;
+class Rectangle extends Forme {
+    private $largeur;
+    private $longueur;
+
+    public function __construct($largeur, $longueur) {
+        $this->largeur = $largeur;
+        $this->longueur = $longueur;
     }
 
-    public function getNom() {
-        return $this->nom;
-    }
-
-    public function getAge() {
-        return $this->age;
+    public function calculerAire() {
+        return $this->largeur * $this->longueur;
     }
 }
 
-$personne = new Personne("Martin", 30);
-
-echo $personne->getNom() . " a " . $personne->getAge() . " ans." . PHP_EOL;
+$rectangle = new Rectangle(5, 10);
+echo "L'aire du rectangle est : " . $rectangle->calculerAire();
 ```
 
-<!-- ![Exposé constructeur](/lab-poo/exposé-abstract-class/images/exemple.jpg){:width="500px" }*Figure: Exemple* -->
+## Avantages de la classe abstraite
+![Exposé classe abstraite](/lab-poo/exposé-abstract-class/images/avantages.jpg){:width="500px" }*Figure: Avantages*
 
-## Avantages du constructeur
-![Exposé constructeur](/lab-poo/exposé-abstract-class/images/avantages.jpg){:width="500px" }*Figure: Avantages*
+* Encourage une structure de code plus modulaire et évite la redondance.
+* Définit un contrat pour les classes enfants à suivre.
+* Favorise la flexibilité et l'extensibilité du code.
 
-* Permet d'initialiser les attributs de l'objet de manière centralisée.
-* Facilite la création d'objets avec des valeurs par défaut.
-* Améliore la lisbilité et la maintenabilité du code.
+## Utilisation de la classe abstraite
+![Exposé classe abstraite](/lab-poo/exposé-abstract-class/images/cas-utilisation.jpg){:width="500px" }*Figure: Cas d'utilisation*
 
-## Utilisation du constructeur
-![Exposé constructeur](/lab-poo/exposé-abstract-class/images/cas-utilisation.jpg){:width="500px" }*Figure: Cas d'utilisation*
-
-* Initialiser les attributs de l'objet avec des valeurs par défaut.
-* Ouvrir une connexion à une base de données.
-* Charger des ressources externes.
-* Effectuer des vérifications de sécurité.
-
+* Définir un comportement commun pour un groupe de classes.
+* Forcer l'implémentation de méthodes spécifiques dans les classes enfants.
+* Centraliser la logique métier commune sans fournir d'implémentation.
 
 ## Conclusion
 
-![Exposé constructeur](/lab-poo/exposé-abstract-class/images/conclusion.jpg){:width="500px" }*Figure: Conclusion*
+![Exposé classe abstraite](/lab-poo/exposé-abstract-class/images/conclusion.jpg){:width="500px" }*Figure: Conclusion*
 
-Le constructeur est une méthode puissante et flexible qui permet de configurer et d'initialiser les objets en PHP. Il est un outil essentiel pour le développement orienté objet.
-
+Les classes abstraites offrent une solution élégante pour définir des contrats et des comportements communs dans la programmation orientée objet. Elles sont essentielles pour une conception modulaire et extensible.
 
 ## Points à retenir
 
-* Le constructeur est une méthode spéciale appelée automatiquement lors de l'instanciation d'une classe.
-* Il permet d'initialiser les attributs de l'objet et de configurer son état initial.
-* Le constructeur peut avoir des paramètres pour passer des valeurs à l'objet lors de sa création.
-* L'utilisation du constructeur permet d'améliorer la lisbilité, la maintenabilité et la sécurité du code.
-
-
-
+* Une classe abstraite définit un modèle incomplet pour les classes enfants.
+* Les méthodes abstraites définies dans une classe abstraite doivent être implémentées par les classes enfants.
+* Les classes abstraites sont utiles pour définir des interfaces et des comportements communs.
 
 ## Ressources supplémentaires
 
   
-- Le constructeur en PHP :
-    - https://www.w3schools.com/php/php_oop_constructor.asp
+- Documentation sur les classes abstraites en PHP :
+    - https://www.php.net/manual/en/language.oop5.abstract.php
 
   
-- Tutoriel sur les constructeurs en PHP:
-    - https://www.w3schools.com/php/php_oop_constructor.asp
-
+- Tutoriel sur les classes abstraites en PHP :
+    - https://www.w3schools.com/php/php_oop_classes_abstract.asp

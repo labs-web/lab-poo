@@ -12,7 +12,7 @@ order: 5
 ## Introduction
 ![Exposé constructeur](/lab-poo/exposé-abstract-class/images/introduction.jpg){:width="500px" }*Figure: Introduction*
 <!-- note -->
-Le constructeur est une méthode spéciale en PHP qui est appelée automatiquement lors de l'instanciation d'une classe. Il permet d'initialiser les attributs de l'objet et de configurer son état initial.
+Une classe abstraite en programmation orientée objet offre un cadre pour définir des méthodes sans les implémenter. Cela permet aux classes enfants de fournir leur propre implémentation.
 
 
 <!-- new slide -->
@@ -20,30 +20,29 @@ Le constructeur est une méthode spéciale en PHP qui est appelée automatiqueme
 ![Exposé constructeur](/lab-poo/exposé-abstract-class/images/definition.jpg){:width="500px" }*Figure: Définition*
 
 <!-- note -->
-Le constructeur est déclaré avec le mot-clé `__construct` suivi d'une liste de paramètres entre parenthèses. Les paramètres peuvent être utilisés pour passer des valeurs à l'objet lors de sa création.
+Une classe abstraite est définie par le mot-clé `abstract`. Elle peut contenir des méthodes abstraites, qui sont des méthodes déclarées mais non implémentées.
 
 <!-- new slide -->
 ## Exemple
 ![Exposé constructeur](/lab-poo/exposé-abstract-class/images/Construct-code.png)*Figure: Exemple*
 
 <!-- new slide -->
-## Avantages du constructeur
+## Avantages de la classe abstraite
 ![Exposé constructeur](/lab-poo/exposé-abstract-class/images/avantages.jpg){:width="500px" }*Figure: Avantages*
 
 <!-- note -->
-* Permet d'initialiser les attributs de l'objet de manière centralisée.
-* Facilite la création d'objets avec des valeurs par défaut.
-* Améliore la lisbilité et la maintenabilité du code.
+* Encourage une structure de code plus modulaire et évite la redondance.
+* Définit un contrat pour les classes enfants à suivre.
+* Favorise la flexibilité et l'extensibilité du code.
 
 <!-- new slide -->
-## Utilisation du constructeur
+## Utilisation de la classe abstraite
 ![Exposé constructeur](/lab-poo/exposé-abstract-class/images/cas-utilisation.jpg){:width="500px" }*Figure: Cas d'utilisation*
 
 <!-- note -->
-* Initialiser les attributs de l'objet avec des valeurs par défaut.
-* Ouvrir une connexion à une base de données.
-* Charger des ressources externes.
-* Effectuer des vérifications de sécurité.
+* Définir un comportement commun pour un groupe de classes.
+* Forcer l'implémentation de méthodes spécifiques dans les classes enfants.
+* Centraliser la logique métier commune sans fournir d'implémentation.
 
 <!-- new slide -->
 ## Conclusion
@@ -51,16 +50,16 @@ Le constructeur est déclaré avec le mot-clé `__construct` suivi d'une liste d
 ![Exposé constructeur](/lab-poo/exposé-abstract-class/images/conclusion.jpg){:width="500px" }*Figure: Conclusion*
 
 <!-- note -->
-Le constructeur est une méthode puissante et flexible qui permet de configurer et d'initialiser les objets en PHP. Il est un outil essentiel pour le développement orienté objet.
+Les classes abstraites offrent une solution élégante pour définir des contrats et des comportements communs dans la programmation orientée objet. Elles sont essentielles pour une conception modulaire et extensible.
 
 <!-- new slide -->
 ## Points à retenir
 
-- Le constructeur est une méthode spéciale appelée automatiquement lors de l'instanciation d'une classe.
+- Une classe abstraite définit un modèle incomplet pour les classes enfants.
   
 
 
-- Il permet d'initialiser les attributs de l'objet et de configurer son état initial.
+- Les méthodes abstraites définies dans une classe abstraite doivent être implémentées par les classes enfants.
   
 
 
@@ -68,7 +67,7 @@ Le constructeur est une méthode puissante et flexible qui permet de configurer 
   
 
 
-- L'utilisation du constructeur permet d'améliorer la lisbilité, la maintenabilité et la sécurité du code.
+- Les classes abstraites sont utiles pour définir des interfaces et des comportements communs.
 
 
 
@@ -77,12 +76,15 @@ Le constructeur est une méthode puissante et flexible qui permet de configurer 
 
 ## Ressources supplémentaires
 
-- Le constructeur en PHP: [https://www.php.net/manual/fr/language.oop5.decon.php](https://www.php.net/manual/fr/language.oop5.decon.php)
+- Documentation sur les classes abstraites en PHP :
+    - https://www.php.net/manual/en/language.oop5.abstract.php
 
 
 
 
-- Tutoriel sur les constructeurs en PHP : [https://www.w3schools.com/php/php_oop_constructor.asp](https://www.w3schools.com/php/php_oop_constructor.asp)
+
+- Tutoriel sur les classes abstraites en PHP :
+    - https://www.w3schools.com/php/php_oop_classes_abstract.asp
 
 
 
