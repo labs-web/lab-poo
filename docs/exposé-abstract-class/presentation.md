@@ -10,25 +10,25 @@ order: 5
 <!-- new slide -->
 
 ## Introduction
-![Exposé constructeur](/lab-poo/exposé-abstract-class/images/introduction.jpg){:width="500px" }*Figure: Introduction*
+![Exposé Abstract classe](/lab-poo/exposé-abstract-class/images/introduction.jpg){:width="500px" }*Figure: Introduction*
 <!-- note -->
 Une classe abstraite en programmation orientée objet offre un cadre pour définir des méthodes sans les implémenter. Cela permet aux classes enfants de fournir leur propre implémentation.
 
 
 <!-- new slide -->
 ## Définition
-![Exposé constructeur](/lab-poo/exposé-abstract-class/images/definition.jpg){:width="500px" }*Figure: Définition*
+![Exposé Abstract classe](/lab-poo/exposé-abstract-class/images/definition.jpg){:width="500px" }*Figure: Définition*
 
 <!-- note -->
 Une classe abstraite est définie par le mot-clé `abstract`. Elle peut contenir des méthodes abstraites, qui sont des méthodes déclarées mais non implémentées.
 
 <!-- new slide -->
 ## Exemple
-![Exposé constructeur](/lab-poo/exposé-abstract-class/images/Construct-code.png)*Figure: Exemple*
+![Exposé Abstract classe](/lab-poo/exposé-abstract-class/images/Abstract-class-code.png)*Figure: Exemple*
 
 <!-- new slide -->
 ## Avantages de la classe abstraite
-![Exposé constructeur](/lab-poo/exposé-abstract-class/images/avantages.jpg){:width="500px" }*Figure: Avantages*
+![Exposé Abstract classe](/lab-poo/exposé-abstract-class/images/avantages.jpg){:width="500px" }*Figure: Avantages*
 
 <!-- note -->
 * Encourage une structure de code plus modulaire et évite la redondance.
@@ -37,7 +37,7 @@ Une classe abstraite est définie par le mot-clé `abstract`. Elle peut contenir
 
 <!-- new slide -->
 ## Utilisation de la classe abstraite
-![Exposé constructeur](/lab-poo/exposé-abstract-class/images/cas-utilisation.jpg){:width="500px" }*Figure: Cas d'utilisation*
+![Exposé Abstract classe](/lab-poo/exposé-abstract-class/images/cas-utilisation.jpg){:width="500px" }*Figure: Cas d'utilisation*
 
 <!-- note -->
 * Définir un comportement commun pour un groupe de classes.
@@ -47,7 +47,7 @@ Une classe abstraite est définie par le mot-clé `abstract`. Elle peut contenir
 <!-- new slide -->
 ## Conclusion
 
-![Exposé constructeur](/lab-poo/exposé-abstract-class/images/conclusion.jpg){:width="500px" }*Figure: Conclusion*
+![Exposé Abstract classe](/lab-poo/exposé-abstract-class/images/conclusion.jpg){:width="500px" }*Figure: Conclusion*
 
 <!-- note -->
 Les classes abstraites offrent une solution élégante pour définir des contrats et des comportements communs dans la programmation orientée objet. Elles sont essentielles pour une conception modulaire et extensible.
@@ -63,7 +63,7 @@ Les classes abstraites offrent une solution élégante pour définir des contrat
   
 
 
-- Le constructeur peut avoir des paramètres pour passer des valeurs à l'objet lors de sa création.
+
   
 
 
